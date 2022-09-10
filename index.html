@@ -1,0 +1,1586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Startup KT - Flutter Course</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/apple-touch-icon-114x114.png" rel="icon">
+    <link href="assets/img/apple-touch-icon-114x114.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <link href="assets/css/flutterBootcamps.css" rel="stylesheet">
+
+    <a href="https://api.whatsapp.com/send?phone=+91 9148987797 &text=I want to know More About Your Services.."
+        class="float2" target="_blank">
+        <i class="bi bi-whatsapp my-float"></i>
+    </a>
+    <style>
+        .float2 {
+            position: fixed;
+            width: 60px;
+            height: 50px;
+            bottom: 20px;
+            left: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .my-float {
+            margin-top: 12px;
+        }
+
+        .cta {
+            background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(https://bootstrapmade.com/demo/templates/Arsha/assets/img/cta-bg.jpg) fixed center center;
+            background-size: cover;
+            padding: 120px 0;
+            color: white;
+        }
+
+        .section-title h2 {
+            font-size: 32px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            padding-bottom: 0;
+            color: #0f394c;
+        }
+    </style>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/6248716d2abe5b455fc3a58d/1fvlfm59a';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+            <a href="#" class="logo d-flex align-items-center">
+
+                <span> <img src="assets/img/flutter/new_Logo.png" alt=""></span>
+            </a>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <!-- <li><a class="nav-link scrollto" href="https://www.startupkt.com/index.html">Home</a></li> -->
+                    <!-- <li><a class="nav-link scrollto" href="https://www.startupkt.com/index.html#about">About</a></li> -->
+
+                    <!-- 
+                    <li class="dropdown"><a class="nav-link scrollto active" href="#"><span>Services</span> <i
+                                class="bi bi-chevron-down"></i></a>
+                        <ul>
+
+
+                            <li><a href="https://www.startupkt.com/startupKT-website-development.html">UX / UI
+                                    Design</a></li>
+                            <li><a href="https://www.startupkt.com/startupKT-web%20and%20App%20Development.html">Web and
+                                    App Development</a></li>
+                            <li><a href="https://www.startupkt.com/startupKT-Digital%20Marketing.html">Digital
+                                    Marketing</a></li>
+                            <li><a href="https://www.startupkt.com/startupKT-Mentorship%20and%20Scalling.html">Mentorship
+                                    and Scaling</a></li>
+                            <li><a href="https://flutter.startupkt.com/">Flutter Course</a></li>
+
+
+
+                        </ul>
+                    </li> -->
+
+
+                    <!-- <li><a class="nav-link scrollto" href="#">Works</a></li>-->
+
+                    <!-- <li><a href="#blog">Blog</a></li> -->
+
+
+                    <li><a class="getstarted scrollto" href="#form2">Register</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+        </div>
+    </header><!-- End Header -->
+
+    <main id="main">
+
+        <!-- ======= Breadcrumbs ======= -->
+        <br><br>
+        <!-- <section class="breadcrumbs">
+            <div class="container">
+
+                <ol>
+                    <li><a href="https://www.startupkt.com/">Home</a></li>
+                    <li>Flutter Course</li>
+                </ol>
+
+
+            </div>
+        </section> -->
+        <!-- End Breadcrumbs -->
+        <!-- <?php echo "Hello, World!";?> -->
+        <!-- hero section -->
+        <section class="container hero-section">
+            <div class=" hero-heading p-3">
+                <!-- <h3 class="col-lg-8 mx-auto">How about learning latest technology by staying with a tech community for
+                    <span>Next 60 days?</span>
+
+                </h3> -->
+                <h3 class="col-lg-9 mx-auto">How about developing a Web & Mobile Application by using Flutter on
+                    Clients
+                    Projects by staying with Sr Flutter developers for
+
+                    <span>Next 60 days?</span>
+
+                </h3>
+
+
+            </div>
+            <div class="hero-section-container mt-4 p-3 ">
+
+                <div class="row  ">
+                    <div class="col-lg-6 col-sm-12 d-flex align-items-center justify-content-center">
+
+                        <div class="col-lg-10 col-sm-12 hero-section-content">
+                            <h1><span>60 DAYS</span><br>
+                                FLUTTER DEVELOPMENT WORKSHOP CHALLENGE..
+                            </h1>
+                            <img class="flutter-logo my-2"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Google-flutter-logo.svg/2560px-Google-flutter-logo.svg.png" />
+                            <p class="sub-text1 my-3">Learn Cross Platform Web and Mobile Application<br> development
+                                and
+                                build a
+                                Android
+                                and iOS<br>
+                                Applications from scratch!</p>
+                            <p class="sub-text2 my-3">Your <span>Lifestyle</span> , Your <span>Future</span>,<br> Your
+                                <span>Family</span> that you
+                                simply Want,<br>
+                                <span>Depends On The Career You Build...</span>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+
+
+                        <div class="  col-lg-9 d-flex align-items-center justify-content-center"
+                            style="margin:auto auto;  height: 100%;">
+
+                            <div class=" w-100 signUp-form p-3 ">
+
+
+                                <form id="form1" action="send_mail.php" method="post">
+                                    <h2>SIGN UP</h2>
+                                    <div>
+                                        <input name="_formsubmit_id" type="text" style="display:none">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Email
+                                                address</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="name@example.com" name="email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="Full Name" name="name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Mobile
+                                                Number</label>
+                                            <input type="tel" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="+91" name="phone-number">
+                                        </div>
+                                        <button>
+                                            Join the Community Now!!!
+                                        </button>
+                                    </div>
+
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- flutter developer promo -->
+        <section class="container flutter-promo p-3">
+            <div class="row" style="">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+
+                    <img class="img-fluid" src="./assets/img/flutter/promoImage.png" />
+                </div>
+                <div class="col-lg-8 p-3">
+                    <h2 style="color: #333333; font-size: 2.2rem; font-weight: 700;">Becoming a FLUTTER
+                        DEVELOPER
+                        in 60 days is Just One Click Away…</h2>
+                    <a href="#form2"
+                        style="background-color: white; padding:.5em 1em; border: 2px solid #333333; margin-top: .5em; margin-bottom: 0.5em; color: black; ">Click
+                        Here</a>
+                    <ul class="benefits">
+                        <li>
+                            What does “60 Day Flutter Workshop Challenge” mean for you, <br>For everyone, its different.
+                        </li>
+                        <li>
+                            For some of you, you haven’t got your dream job.
+                        </li>
+                        <li>For others, you are doing different job other than your qualification.</li>
+                        <li>On the other side, you have your family and future dependent on your career.</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+            <p>Before I share you with my StartupKT goal, let me ask you a few questions.</p>
+            <div class="row">
+
+                <div class="col-lg-9">
+
+                    <h3 style="font-size: 1.5em; color: black; font-weight: 700;">Please Check All Of The Questions
+                        Where
+                        Your
+                        Answer Is YES!</h3>
+                    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                        <input type="checkbox" name="" id="">
+                        <p style="margin: 0; padding-left: 10px;">Are you interested in Mobile application development?
+                        </p>
+                    </div>
+                    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                        <input type="checkbox" name="" id="">
+                        <p style="margin: 0; padding-left: 10px;">Do you think that companies are rejecting you for your
+                            skills?
+                        </p>
+                    </div>
+                    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                        <input type="checkbox" name="" id="">
+                        <p style="margin: 0; padding-left: 10px;">Do you want to improve your skills by working on live
+                            project?
+                        </p>
+                    </div>
+                    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                        <input type="checkbox" name="" id="">
+                        <p style="margin: 0; padding-left: 10px;">Do you want get a better Job quickly?
+                        </p>
+                    </div>
+                    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                        <input type="checkbox" name="" id="">
+                        <p style="margin: 0; padding-left: 10px;">Do you want to become a full time tech freelancer?
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 p-3 ">
+                    <img class="img-fluid" src="./assets/img/flutter/questions.png" alt="">
+                </div>
+            </div>
+
+            <div class="my-5 col-lg-8" style="text-align: center;  margin: 0 auto;">
+                <p style="font-size: 1em; font-weight: 600; margin-bottom: 1em;">SO, Here Is How Your Career Stats Work
+                    On The Live
+                    Projects Day To Day
+                </p>
+                <p class="mb-4" style=" font-size: 1.4em; font-weight: 600;">If You Checked
+                    ANY Of The
+                    Boxes
+                    Above,<br>
+                    Then I
+                    Want To Invite You To Join The 60 Day Flutter<br>
+                    Workshop Challenge And Change Your Career Forever!</p>
+                <a href="#form2" style="
+                    background-color: #E4740C;
+                    color: white;         
+                    border: none;
+                    padding: .5em 2em;      
+                    display: block; 
+                ">
+                    I want to Join Flutter Developer Community <span style="font-weight: 600;">Now!!!</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Why Learn Flutter for Web & App Development</h2>
+            <p>You Should Know Why to Learn Flutter Now in 2022</p>
+            <div id="accordion">
+                <div class="row">
+                    <div class="col-lg-6">
+
+                        <div>
+
+                            <div class="card my-3">
+                                <div style="background-color: white;" class="card-header" id="headingOne">
+                                    <div class=" d-flex align-items-center justify-content-between">
+                                        <p style="font-weight: 700; margin: 0;">Does Google use Flutter?</p>
+                                        <button style="background-color: white; border: none;" data-toggle="collapse"
+                                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <i style="font-weight: 100;" class="fa fa-chevron-down"></i>
+                                        </button>
+
+                                    </div>
+                                    <h5 class="mb-0">
+                                    </h5>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                    data-parent="#accordion">
+                                    <div class="card-body" style="text-align: justify;">
+                                        Flutter is supported and used by Google, trusted by well-known brands around the
+                                        world, and
+                                        maintained by a community of global developers.
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+
+                            <div class="card my-3">
+                                <div style="background-color: white;" class="card-header" id="heading2">
+                                    <div class=" d-flex align-items-center justify-content-between">
+                                        <p style="font-weight: 700; margin: 0;">Why Flutter is better than react native?
+                                        </p>
+                                        <button style="background-color: white; border: none;" data-toggle="collapse"
+                                            data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                            <i style="font-weight: 100;" class="fa fa-chevron-down"></i>
+                                        </button>
+
+                                    </div>
+                                    <h5 class="mb-0">
+                                    </h5>
+                                </div>
+
+                                <div id="collapse2" class="collapse show" aria-labelledby="heading2"
+                                    data-parent="#accordion">
+                                    <div class="card-body" style="text-align: justify;">
+                                        Flutter is easier to use as it is more resistant to system updates. It means
+                                        that when iOS or
+                                        Android update the OS, the app will remain the same. On the contrary, React
+                                        Native depends on
+                                        native elements, so when the update is released, some problems may appear in the
+                                        launch app.
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+
+                            <div class="card my-3">
+                                <div style="background-color: white;" class="card-header" id="heading3">
+                                    <div class=" d-flex align-items-center justify-content-between">
+                                        <p style="font-weight: 700; margin: 0;">Is Flutter web scalable?
+                                        </p>
+                                        <button style="background-color: white; border: none;" data-toggle="collapse"
+                                            data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                            <i style="font-weight: 100;" class="fa fa-chevron-down"></i>
+                                        </button>
+
+                                    </div>
+                                    <h5 class="mb-0">
+                                    </h5>
+                                </div>
+
+                                <div id="collapse3" class="collapse show" aria-labelledby="heading3"
+                                    data-parent="#accordion">
+                                    <div class="card-body" style="text-align: justify;">
+                                        Flutter is Google's free, open-source software development kit (SDK) for
+                                        cross-platform
+                                        mobile application development. Using a single platform-agnostic codebase,
+                                        Flutter
+                                        helps developers build high-performance, scalable applications with attractive
+                                        and
+                                        functional user interfaces for Android or IOS.
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+
+                            <div class="card my-3">
+                                <div style="background-color: white;" class="card-header" id="heading4">
+                                    <div class=" d-flex align-items-center justify-content-between">
+                                        <p style="font-weight: 700; margin: 0;">Is Dart hard to learn?
+
+                                        </p>
+                                        <button style="background-color: white; border: none;" data-toggle="collapse"
+                                            data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                                            <i style="font-weight: 100;" class="fa fa-chevron-down"></i>
+                                        </button>
+
+                                    </div>
+                                    <h5 class="mb-0">
+                                    </h5>
+                                </div>
+
+                                <div id="collapse4" class="collapse show" aria-labelledby="heading4"
+                                    data-parent="#accordion">
+                                    <div class="card-body" style="text-align: justify;">
+                                        Dart is pretty easy to learn.
+                                        It's not just about learning the language, but also its ecosystem, the
+                                        terminologies related
+                                        to it, getting the proper tools and SDKs for the language, and then moving on to
+                                        the
+                                        popular frameworks and libraries available for that language.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+
+                            <div class="card my-3">
+                                <div style="background-color: white;" class="card-header" id="heading5">
+                                    <div class=" d-flex align-items-center justify-content-between">
+                                        <p style="font-weight: 700; margin: 0;">How much does a Flutter developer earn?
+
+                                        </p>
+                                        <button style="background-color: white; border: none;" data-toggle="collapse"
+                                            data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                                            <i style="font-weight: 100;" class="fa fa-chevron-down"></i>
+                                        </button>
+
+                                    </div>
+                                    <h5 class="mb-0">
+                                    </h5>
+                                </div>
+
+                                <div id="collapse5" class="collapse show" aria-labelledby="heading5"
+                                    data-parent="#accordion">
+                                    <div class="card-body" style="text-align: justify;">
+                                        Flutter Developer salary in India ranges between ₹ 2.4 Lakhs to ₹ 12.6 Lakhs on
+                                        an average annual
+                                        salary.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+
+                            <div class="card my-3">
+                                <div style="background-color: white;" class="card-header" id="heading6">
+                                    <div class=" d-flex align-items-center justify-content-between">
+                                        <p style="font-weight: 700; margin: 0;"> Is Flutter a good choice for career?
+
+
+                                        </p>
+                                        <button style="background-color: white; border: none;" data-toggle="collapse"
+                                            data-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                                            <i style="font-weight: 100;" class="fa fa-chevron-down"></i>
+                                        </button>
+
+                                    </div>
+                                    <h5 class="mb-0">
+                                    </h5>
+                                </div>
+
+                                <div id="collapse6" class="collapse show" aria-labelledby="heading6"
+                                    data-parent="#accordion">
+                                    <div class="card-body" style="text-align: justify;">
+                                        Flutter is becoming more popular among developers and companies. Employers will
+                                        need to hire
+                                        experienced Flutter developers due to this transition, increasing Flutter
+                                        opportunities in the job market.
+                                        So, if you want to work as a Flutter developer, starting your Flutter career now
+                                        will be beneficial.
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+
+                            <div class="card my-3">
+                                <div style="background-color: white;" class="card-header" id="heading7">
+                                    <div class=" d-flex align-items-center justify-content-between">
+                                        <p style="font-weight: 700; margin: 0;"> Is there a market for Flutter?
+
+
+
+                                        </p>
+                                        <button style="background-color: white; border: none;" data-toggle="collapse"
+                                            data-target="#collapse7" aria-expanded="true" aria-controls="collapse7">
+                                            <i style="font-weight: 100;" class="fa fa-chevron-down"></i>
+                                        </button>
+
+                                    </div>
+                                    <h5 class="mb-0">
+                                    </h5>
+                                </div>
+
+                                <div id="collapse7" class="collapse show" aria-labelledby="heading7"
+                                    data-parent="#accordion">
+                                    <div class="card-body" style="text-align: justify;">
+                                        Flutter is the 2nd most popular cross-platform framework in the market now.
+                                        Currently, it has 2 million
+                                        users worldwide and is still counting. Yes, the framework enjoys worldwide
+                                        popularity and is
+                                        booming in the mobile app development world.
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+
+                            <div class="card my-3">
+                                <div style="background-color: white;" class="card-header" id="heading8">
+                                    <div class=" d-flex align-items-center justify-content-between">
+                                        <p style="font-weight: 700; margin: 0;"> Is Flutter developer a good career?
+
+
+
+                                        </p>
+                                        <button style="background-color: white; border: none;" data-toggle="collapse"
+                                            data-target="#collapse8" aria-expanded="true" aria-controls="collapse8">
+                                            <i style="font-weight: 100;" class="fa fa-chevron-down"></i>
+                                        </button>
+
+                                    </div>
+                                    <h5 class="mb-0">
+                                    </h5>
+                                </div>
+
+                                <div id="collapse8" class="collapse show" aria-labelledby="heading8"
+                                    data-parent="#accordion">
+                                    <div class="card-body" style="text-align: justify;">
+                                        Flutter Developers are in High Demand
+                                        Employers will need to hire experienced Flutter developers due to this
+                                        transition, increasing Flutter
+                                        opportunities in the job market. So, if you want to work as a Flutter developer,
+                                        starting your Flutter
+                                        career now will be beneficial.
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+
+                            <div class="card my-3">
+                                <div style="background-color: white;" class="card-header" id="heading9">
+                                    <div class=" d-flex align-items-center justify-content-between">
+                                        <p style="font-weight: 700; margin: 0;"> How much do freelance flutter
+                                            developers make?
+
+
+
+                                        </p>
+                                        <button style="background-color: white; border: none;" data-toggle="collapse"
+                                            data-target="#collapse9" aria-expanded="true" aria-controls="collapse9">
+                                            <i style="font-weight: 100;" class="fa fa-chevron-down"></i>
+                                        </button>
+
+                                    </div>
+                                    <h5 class="mb-0">
+                                    </h5>
+                                </div>
+
+                                <div id="collapse9" class="collapse show" aria-labelledby="heading9"
+                                    data-parent="#accordion">
+                                    <div class="card-body" style="text-align: justify;">
+                                        Flutter Developers are in High Demand
+                                        Employers will need to hire experienced Flutter developers due to this
+                                        transition, increasing Flutter
+                                        opportunities in the job market. So, if you want to work as a Flutter developer,
+                                        starting your Flutter
+                                        career now will be beneficial.
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+
+                        <div>
+
+                            <div class="card my-3">
+                                <div style="background-color: white;" class="card-header" id="heading10">
+                                    <div class=" d-flex align-items-center justify-content-between">
+                                        <p style="font-weight: 700; margin: 0;"> Is it a good idea to build a web app
+                                            with Flutter?
+
+
+
+
+                                        </p>
+                                        <button style="background-color: white; border: none;" data-toggle="collapse"
+                                            data-target="#collapse10" aria-expanded="true" aria-controls="collapse10">
+                                            <i style="font-weight: 100;" class="fa fa-chevron-down"></i>
+                                        </button>
+
+                                    </div>
+                                    <h5 class="mb-0">
+                                    </h5>
+                                </div>
+
+                                <div id="collapse10" class="collapse show" aria-labelledby="heading10"
+                                    data-parent="#accordion">
+                                    <div class="card-body" style="text-align: justify;">
+                                        Flutter is an ideal choice for businesses looking to develop an app for the web
+                                        and mobile at
+                                        the same time. With Flutter, a single codebase can be used to develop apps for
+                                        different platforms.
+                                        This saves time and reduces headaches typically associated with developing two
+                                        apps
+                                        simultaneously
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+
+                            <div class="card my-3">
+                                <div style="background-color: white;" class="card-header" id="heading11">
+                                    <div class=" d-flex align-items-center justify-content-between">
+                                        <p style="font-weight: 700; margin: 0;"> What websites are built with Flutter?
+
+
+
+
+
+                                        </p>
+                                        <button style="background-color: white; border: none;" data-toggle="collapse"
+                                            data-target="#collapse11" aria-expanded="true" aria-controls="collapse11">
+                                            <i style="font-weight: 100;" class="fa fa-chevron-down"></i>
+                                        </button>
+
+                                    </div>
+                                    <h5 class="mb-0">
+                                    </h5>
+                                </div>
+
+                                <div id="collapse11" class="collapse show" aria-labelledby="heading11"
+                                    data-parent="#accordion">
+                                    <div class="card-body" style="text-align: justify;">
+                                        <ul>
+                                            <li>Abbey Road Studios. Reinventing the songwriting process with Flutter.
+                                            </li>
+                                            <li>
+                                                Alibaba Group. Alibaba scales China's largest second-hand marketplace
+                                                with Flutter.
+                                            </li>
+                                            <li>
+                                                Beike. Beike helps users solve housing problems with Flutter.
+                                            </li>
+                                            <li>
+                                                BMW. ...
+                                            </li>
+                                            <li>
+                                                Google Pay. ...
+                                            </li>
+                                            <li>
+                                                CrowdSource. ...
+                                            </li>
+                                            <li>
+                                                Dream11… And Many More…
+                                            </li>
+                                        </ul>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+
+                            <div class="card my-3">
+                                <div style="background-color: white;" class="card-header" id="heading12">
+                                    <div class=" d-flex align-items-center justify-content-between">
+                                        <p style="font-weight: 700; margin: 0;">Why Flutter is so fast?
+                                        </p>
+                                        <button style="background-color: white; border: none;" data-toggle="collapse"
+                                            data-target="#collapse12" aria-expanded="true" aria-controls="collapse12">
+                                            <i style="font-weight: 100;" class="fa fa-chevron-down"></i>
+                                        </button>
+
+                                    </div>
+                                    <h5 class="mb-0">
+                                    </h5>
+                                </div>
+
+                                <div id="collapse12" class="collapse show" aria-labelledby="heading12"
+                                    data-parent="#accordion">
+                                    <div class="card-body" style="text-align: justify;">
+                                        It is a client-optimized language for fast performing apps on multiple
+                                        platforms. Dart
+                                        is AOT (Ahead Of Time) compiled to fast, predictable, native code, allowing
+                                        writing almost
+                                        all of Flutter code in Dart. This makes Flutter extremely fast and customizable
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+
+                            <div class="card my-3">
+                                <div style="background-color: white;" class="card-header" id="heading13">
+                                    <div class=" d-flex align-items-center justify-content-between">
+                                        <p style="font-weight: 700; margin: 0;"> Is Flutter enough for app development?
+
+                                        </p>
+                                        <button style="background-color: white; border: none;" data-toggle="collapse"
+                                            data-target="#collapse13" aria-expanded="true" aria-controls="collapse13">
+                                            <i style="font-weight: 100;" class="fa fa-chevron-down"></i>
+                                        </button>
+
+                                    </div>
+                                    <h5 class="mb-0">
+                                    </h5>
+                                </div>
+
+                                <div id="collapse13" class="collapse show" aria-labelledby="heading13"
+                                    data-parent="#accordion">
+                                    <div class="card-body" style="text-align: justify;">
+                                        Of course, you can also create your own components, and for this, Flutter is
+                                        truly excellent. Creating
+                                        good looking custom UI elements is very easy, and you will have them working on
+                                        both Android and
+                                        iOS. This makes Flutter a perfect choice for mobile apps with advanced, custom
+                                        UI designs.
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+
+                            <div class="card my-3">
+                                <div style="background-color: white;" class="card-header" id="heading14">
+                                    <div class=" d-flex align-items-center justify-content-between">
+                                        <p style="font-weight: 700; margin: 0;">Can I get a job by learning Flutter?
+
+                                        </p>
+                                        <button style="background-color: white; border: none;" data-toggle="collapse"
+                                            data-target="#collapse14" aria-expanded="true" aria-controls="collapse14">
+                                            <i style="font-weight: 100;" class="fa fa-chevron-down"></i>
+                                        </button>
+
+                                    </div>
+                                    <h5 class="mb-0">
+                                    </h5>
+                                </div>
+
+                                <div id="collapse14" class="collapse show" aria-labelledby="heading14"
+                                    data-parent="#accordion">
+                                    <div class="card-body" style="text-align: justify;">
+                                        Complete Flutter course that will get you job as Flutter Developer. You'll gain
+                                        all the skills required
+                                        by IT-companies. At the end of this course you will be able to create
+                                        native-like looking Android and iOS
+                                        apps using Flutter.
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+
+                            <div class="card my-3">
+                                <div style="background-color: white;" class="card-header" id="heading15">
+                                    <div class=" d-flex align-items-center justify-content-between">
+                                        <p style="font-weight: 700; margin: 0;">Is Flutter developer in demand?
+
+                                        </p>
+                                        <button style="background-color: white; border: none;" data-toggle="collapse"
+                                            data-target="#collapse15" aria-expanded="true" aria-controls="collapse15">
+                                            <i style="font-weight: 100;" class="fa fa-chevron-down"></i>
+                                        </button>
+
+                                    </div>
+                                    <h5 class="mb-0">
+                                    </h5>
+                                </div>
+
+                                <div id="collapse15" class="collapse show" aria-labelledby="heading15"
+                                    data-parent="#accordion">
+                                    <div class="card-body" style="text-align: justify;">
+                                        Flutter developers are currently in demand since a number of businesses are
+                                        looking to take up
+                                        cross-platform development through Flutter. Since there is a greater market
+                                        reach, Flutter developers
+                                        can expect to earn more in the coming years
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+
+                            <div class="card my-3">
+                                <div style="background-color: white;" class="card-header" id="heading16">
+                                    <div class=" d-flex align-items-center justify-content-between">
+                                        <p style="font-weight: 700; margin: 0;"> Is there any demand for Flutter?
+
+
+                                        </p>
+                                        <button style="background-color: white; border: none;" data-toggle="collapse"
+                                            data-target="#collapse16" aria-expanded="true" aria-controls="collapse16">
+                                            <i style="font-weight: 100;" class="fa fa-chevron-down"></i>
+                                        </button>
+
+                                    </div>
+                                    <h5 class="mb-0">
+                                    </h5>
+                                </div>
+
+                                <div id="collapse16" class="collapse show" aria-labelledby="heading16"
+                                    data-parent="#accordion">
+                                    <div class="card-body" style="text-align: justify;">
+                                        The main reason Flutter frameworks are so popular is their ability to develop
+                                        cross-platform applications
+                                        with a single code. The demand for Flutter developers is soaring as the mobile
+                                        app industry is
+                                        expanding at an exponential rate.
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+
+                            <div class="card my-3">
+                                <div style="background-color: white;" class="card-header" id="heading17">
+                                    <div class=" d-flex align-items-center justify-content-between">
+                                        <p style="font-weight: 700; margin: 0;"> Is Flutter a future?
+
+
+
+                                        </p>
+                                        <button style="background-color: white; border: none;" data-toggle="collapse"
+                                            data-target="#collapse17" aria-expanded="true" aria-controls="collapse17">
+                                            <i style="font-weight: 100;" class="fa fa-chevron-down"></i>
+                                        </button>
+
+                                    </div>
+                                    <h5 class="mb-0">
+                                    </h5>
+                                </div>
+
+                                <div id="collapse17" class="collapse show" aria-labelledby="heading17"
+                                    data-parent="#accordion">
+                                    <div class="card-body" style="text-align: justify;">
+                                        Now Flutter is used for enterprise apps as well. Developers are confident that
+                                        the future of app
+                                        development belongs to Flutter with the pace it is setting the trend in mobile
+                                        development.
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container take-away-section mt-5" style="text-align: center;">
+            <h3 style="font-weight: 700;">Take Aways From This 60 Day Flutter Workshop Challenge!!!</h3>
+            <div style=" margin: 0 auto;" class="row mt-3 col-lg-8">
+                <div class=" col-lg-6 col-sm-12">
+                    <div class="take-away-card">
+                        <img style="background-color: #CCECFF; padding: .5em; width: 50px;"
+                            src="./assets/img/flutter/award.png" alt="">
+                        <p>Internship Certificate
+                        </p>
+                    </div>
+                </div>
+                <div class=" col-lg-6">
+                    <div class="take-away-card">
+                        <img style="background-color: #CCECFF; padding: .5em; width: 50px;"
+                            src="./assets/img/flutter/reward.png" alt="">
+                        <p>Rewards for paid tasks
+                        </p>
+                    </div>
+                </div>
+                <div class=" col-lg-6">
+                    <div class="take-away-card">
+                        <img style="background-color: #CCECFF; padding: .5em; width: 50px;"
+                            src="./assets/img/flutter/placement.png" alt="">
+                        <p>Placement assistance
+                        </p>
+                    </div>
+                </div>
+                <div class=" col-lg-6">
+                    <div class="take-away-card">
+                        <img style="background-color: #CCECFF; padding: .5em; width: 50px;"
+                            src="./assets/img/flutter/motivation.png" alt="">
+                        <p>Learn how to work as a team
+                        </p>
+                    </div>
+                </div>
+                <div class=" col-lg-6">
+                    <div class="take-away-card">
+                        <img style="background-color: #CCECFF; padding: .5em; width: 50px;"
+                            src="./assets/img/flutter/freelancer.png" alt="">
+                        <p>Freelance opportunities
+                        </p>
+                    </div>
+                </div>
+                <div class=" col-lg-6">
+                    <div class="take-away-card">
+                        <img style="background-color: #CCECFF; padding: .5em; width: 50px;"
+                            src="./assets/img/flutter/problem.png" alt="">
+                        <p>Prepare interview questions
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- know where do you fit in -->
+        <section class="container know-where">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="m-3">
+                        <img style="width: 100%;" src="./assets/img/flutter/knowWhere.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-9 col-sm-12 mb-3">
+                    <div class="row">
+                        <div class=" col-lg-4 my-2" style="height: 150px;">
+                            <div class="know-where-card p-4 " style="text-align: center; border-radius: 10px;">
+
+                                <p class="title">Pro:</p>
+                                <p style="font-weight: 600;">If you are a Pro,
+                                    then you may
+                                    learn in 2 months.
+                                </p>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 my-2" style="height: 150px;">
+                            <div class="know-where-card p-4 " style="text-align: center; border-radius: 10px;">
+
+                                <p class="title">Intermediate:
+
+                                </p>
+                                <p style="font-weight: 600;">You may learn in 2-3 months.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 my-2" style="height: 150px;">
+                            <div class="know-where-card p-4 " style="text-align: center; border-radius: 10px;">
+
+                                <p class="title">Beginner:</p>
+                                <p style="font-weight: 600;">You may require
+                                    3-5months to learn
+                                    to become a pro…
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <p class="sub-title mt-5 mx-3">No <span>Time Frame</span> For Your Learning, Your Passion matters.
+                        <br>
+                        No! We Don’t have a <span>Syllabus</span> here, You have to learn everything <br>
+                        what it takes to complete the assigned project.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" style=" align-items: center; position: relative; ">
+            <div class="col-lg-9 col-sm-12" style="margin: 0 auto;">
+
+
+                <h2 style="font-size: 1.8em; font-weight: 700;">What You Get From StartupKT Community <br>
+                    Learning & Earning Workshop is:</h2>
+
+                <img style="width: 35%; position: absolute; right: -10px; bottom: 10%; z-index: 999;"
+                    src="./assets/img/flutter/what-you-get.png" />
+                <div class="row">
+
+                    <div class="col-lg-112">
+                        <ul>
+                            <li style="margin-bottom: .5em;">
+                                Expertise with data structure, design pattern, Restful client-side API and OOPS
+                                concepts.
+                            </li>
+                            <li style="margin-bottom: .5em;">Hands on experience in dart and flutter specific design
+                                pattern.
+                            </li>
+                            <li style="max-width: 85%; margin-bottom: .5em;">
+                                Experience in iOS/Android apps developed with Flutter. Both deployed on the
+                                AppStore/Google
+                                Play
+                                and also available on GitHub.
+                            </li>
+                            <li style="max-width: 55%; margin-bottom: .5em;">Capable of writing readable code, create
+                                extensive
+                                documentation for
+                                existing code, and refactor
+                                the previously written code into readable state.</li>
+                            <li>Experience with Git, Jenkins, or other version control tools</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="col-lg-3">
+                    <img style="width: 100%;" src="./assets/img/flutter/what-you-get.png" />
+                </div> -->
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class="col-lg-9"
+                    style="text-align: center; padding-left: 1.5em; padding-right: 1.5em; display: flex; flex-direction: column; justify-content: space-between;">
+                    <h3 style="font-weight: 900; font-size: 2em;">SO, HERE IS HOW THE 60 DAY FLUTTER
+                        WORKSHOP CHALLENGE WORKS…
+                    </h3>
+                    <p style="font-size: 1.5em;">You will stay with <span style="font-weight: 700;"> Flutter Community
+                            Paying Guest in Electronic City, Bengaluru</span>
+                        and will be working on Flutter everyday…
+                    </p>
+                    <div style="background-color: #E4740C; padding: 1em; color: white;">
+                        <p style="margin: 0; font-size: 1.5em; ">This will cost you <span style="font-weight: 700;">Rs
+                                30000/-</span> for 60 Days,</p>
+                        <p style="margin: 0;">Includes accommodation,
+                            food and opportunity to work on live projects.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3" style="text-align: center; ">
+                    <div style="margin: 1em; background-color: #80abff; padding: 1em;">
+
+                        <p style="text-align: left; font-size: .8em;">Testimonial</p>
+                        <img style="height: 100px; width: 100px; border-radius: 50%;" src="https://picsum.photos/200"
+                            alt="">
+                        <p style="font-size: .8em; font-weight: 700; margin-top: 1em;">MITHUN KUMAR H S
+                        </p>
+                        <p style="margin: 0; font-size: 0.8em; text-align: justify; font-weight: 600;">It’s the
+                            worthiest
+                            investment I ever
+                            made to learn. Though I
+                            have good
+                            knowledge on tech, I was
+                            concerned about hands on experience. Thanks to StartupKT for
+                            helping me to work on live project. Never expected that I
+                            will learn so much in 15 days. Thank</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- <section class="container what-you-get-section">
+            <h3 class="col-lg-6" style="text-align: center; font-weight: 700; margin: 0 auto;">Then in exchange for that
+                tiny investment, <br>
+                You Get ALL Of This:</h3>
+            <div class="row mt-5">
+                <div class="col-lg-4 mb-5">
+                    <img style="width: 100%;" src="./assets/img/flutter/flutter-poster.png" />
+                </div>
+                <div class="col-lg-8">
+                    <p style="margin: 0; font-size: 1.1em; font-weight: 600;">Need More Information Before You Make Your
+                        Decision... <br>
+                        Let Me Break Down All The Awesome Stuff You'll Get When You Join
+                        The Flutter Developer Challenge Today!</p>
+                    <p class="my-3" style="margin: 0; font-size: 1em; font-weight: 700;">It isn’t a class, It’s a
+                        workshop till you
+                        MASTER –
+                        FLUTTER… <br>
+                        you have much more to learn…</p>
+                    <ul>
+                        <li class="what-you-get-section-list">You will build reusable code and libraries for future use.
+                        </li>
+                        <li class="what-you-get-section-list">You will build reusable code and libraries for future use.
+                        </li>
+                        <li class="what-you-get-section-list">You will accurately translate user and business needs into
+                            functional front end code. </li>
+                        <li class="what-you-get-section-list">You will Participate in the design, development and
+                            maintenance of end-user app platform.
+
+                        </li>
+                        <li class="what-you-get-section-list">You will know to determine, analyse and transform business
+                            requirements to produce design specifications at the system and programming levels
+                        </li>
+                        <li class="what-you-get-section-list">You will perform development on a Dart and flutter
+                            platform for the change and test.
+
+                        </li>
+                        <li class="what-you-get-section-list">You will provide post-implementation support including
+                            analysis of production problems.
+
+
+                        </li>
+                        <li class="what-you-get-section-list">You will become a good learner and self-starter, and a
+                            team player, ready for the next challenge - wherever it may be.
+
+
+                        </li>
+                        <li class="what-you-get-section-list">You learn a good conceptual, analytical, mathematical
+                            skills.
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </section> -->
+        <section class="container">
+            <div class="" style="border: 2px solid black; border-radius: 10px; padding: 1em;">
+                <h2 style="font-weight: 700; text-align: center;">Know More About Your Stay As Well While Learning
+                </h2>
+                <div id="carouselExampleControls" class="carousel slide my-5 col-lg-6 col-sm-12" data-bs-ride="carousel"
+                    style=" margin: 0 auto;">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/flutter/pg-image1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/flutter/pg-image2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/flutter/pg-image3.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/flutter/pg-image4.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/flutter/pg-image5.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/flutter/pg-image6.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/flutter/pg-image7.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/flutter/pg-image8.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="container d-flex col-lg-9" style=" margin: 0 auto;">
+            <div class="row  ">
+                <div class="col-lg-6 col-sm-12 mb-3 ">
+                    <div style="background-color: #E8E7E7; padding: 1em;">
+
+                        <h3>Let Me tell You About The Fun You Have
+                            While Learning…</h3>
+                        <ul>
+
+                            <li>You may learn & Work for 4 – 6 Hours a day…
+                            </li>
+                            <li>Rest of the day, you will be discussing while playing.
+                            </li>
+                            <li>Helping each other just like your college tests & exams.
+                            </li>
+                            <li>Making fun, still inside topic.
+                            </li>
+                            <li>Enjoying life of ELECTRONIC CITY 1. but still on Topic.
+                            </li>
+                            <li>Few fly Soon, Few Look for opportunity, Very few stay here for long and become my
+                                friend…
+                            </li>
+                        </ul>
+                        <h5>ULTIMATELY, YOU LEARN AND BECOME CAPABLE AND LEAVE…
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12  mb-3">
+                    <div class="h-100" style=" padding: 1em;  background-color: #E8E7E7;">
+
+                        <h3>Here Is Your Mission,
+                        </h3>
+                        <ul>
+
+                            <li>Your Challenge Is To TAKE ACTION And Complete The Development Tasks Given To You,
+
+                            </li>
+                            <li>Every Day For 60 Days
+
+                            </li>
+                            <li>Yes, there will be some preparation work involved…
+
+                            </li>
+                            <li>Yes, there will be homework to work on Development process and progress..
+
+                            </li>
+                            <li>But every day, you’ll be taking steps toward building your CAREER and LIFE!
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section> -->
+
+        <section class="container col-lg-8 col-sm-12" style=" margin: 0 auto;">
+            <!-- <div>
+                <p style="font-weight: 700;">Our only question for you is…</p>
+                <ul>
+                    <li>By the time the Flutter Development challenge is over, you will have a Project that is LIVE!
+                    </li>
+                    <li>
+                        Not only will we help you figure out what that Flutter development is, but you’ll have it
+                        created and FINISHED by the end of the Flutter Development challenge!
+                    </li>
+                    <li>
+                        And, you’ll be able to launch a Flutter Project
+                        to the world, and to your recruiters, Clients or your Business partners and Investors.
+                    </li>
+                </ul>
+            </div> -->
+            <div style="width: 100%; margin-bottom: 2em;">
+                <a href="#form2" style="
+                    margin: 0 auto; 
+                    display: block;
+                    background-color: #E4740C;
+                    padding: 1em;
+                    border: none;
+                    color: white;
+                    font-weight: 700;
+                    text-align: center;
+                    border-radius: 10px;
+                    ">I want to Join Flutter Developer Community
+                    Now!!!</a>
+            </div>
+            <h2 style="text-align: center; font-size: 1.8em; font-weight: 700;">What makes you out of the crowd when
+                learning with <br>
+                StartupKT Community learning Challenge:</h2>
+            <p style="text-align: center; margin: 1.5em 0;">
+                Other Institutes teaches the syllabus and doesn’t train you.. <br>
+                Here it’s a workshop and working on live projects… <br>
+                Our Visionary thought help you in growing your career.
+            </p>
+            <div class="col-lg-8 col-sm-12"
+                style="background-color: #80abff; padding: 1em; color: white;  margin: 2em auto; border-radius: 10px;">
+                <h2 style="text-align: center; margin: 0;">
+                    <span style="font-weight: 700;">Learn – Discuss – Work – Play</span>
+                    All in a Community Everyday
+                </h2>
+            </div>
+            <div>
+                <p style="font-weight: 700;">
+                    Our Goal is to make you fully equipped:
+                </p>
+                <ul>
+                    <li>
+                        To crack interviews and get better Job
+                    </li>
+                    <li>
+                        To become a freelancer
+                    </li>
+                    <li>
+                        To become a better team player and leader in
+                        your career
+
+                    </li>
+                </ul>
+
+            </div>
+            <div>
+                <p style="font-weight: 700;">
+                    We believe,
+                </p>
+                <ul>
+                    <li>
+                        The day when you complete the first project, you are good to attend interviews..
+                    </li>
+                    <li>
+                        The day you complete 2-3 projects is when you
+                        skilled to perform projects by yourself. </li>
+                    <li>
+                        However we support you as a alumini, there after..
+
+
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+        <!-- ======= Features Section ======= -->
+
+
+
+
+        <br><br>
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer footer-section">
+
+
+
+        <div class="py-5" style="background-color: #80abff;">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-6 col-md-12  footer-info">
+                        <div class="col-lg-8" style="margin: 0 auto; text-align: center; color: white;">
+
+                            <h4 style="color: white;">What are the pre requisites to
+                                join us and learn Flutter?
+                            </h4>
+                            <ul>
+                                <li>
+                                    Laptop with minimum of i5 Processor, 8GB Ram with 256GB SSD…
+
+                                </li>
+                                <li>
+                                    Your Passion To Learn Consistently…
+                                </li>
+                            </ul>
+                            <img style="width: 100%;" src="./assets/img/flutter/footer-flutter-img.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-6 col-sm-12">
+
+                        <div class="  col-lg-9 d-flex align-items-center justify-content-center"
+                            style="margin:auto auto;  height: 100%; background-color: white; border-radius: 10px;">
+
+                            <div class=" w-100 signUp-form p-3 ">
+
+
+                                <form id="form2" action="send_mail.php" method="post">
+                                    <h2>SIGN UP</h2>
+                                    <div>
+                                        <input name="_formsubmit_id" type="text" style="display:none">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Email
+                                                address</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="name@example.com" name="email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="Full Name" name="name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Mobile
+                                                Number</label>
+                                            <input type="tel" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="+91" name="phone-number">
+                                        </div>
+                                        <button>
+                                            Join the Community Now!!!
+                                        </button>
+                                    </div>
+
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Startup KT</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
+                Designed by <a href="https://startupkt.com/">Startup KT</a>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        $('.collapse').collapse()
+
+        $(document).ready(function () {
+            var itemsMainDiv = ('.MultiCarousel');
+            var itemsDiv = ('.MultiCarousel-inner');
+            var itemWidth = "";
+
+            $('.leftLst, .rightLst').click(function () {
+                var condition = $(this).hasClass("leftLst");
+                if (condition)
+                    click(0, this);
+                else
+                    click(1, this)
+            });
+
+            ResCarouselSize();
+
+
+
+
+            $(window).resize(function () {
+                ResCarouselSize();
+            });
+
+            //this function define the size of the items
+            function ResCarouselSize() {
+                var incno = 0;
+                var dataItems = ("data-items");
+                var itemClass = ('.item');
+                var id = 0;
+                var btnParentSb = '';
+                var itemsSplit = '';
+                var sampwidth = $(itemsMainDiv).width();
+                var bodyWidth = $('body').width();
+                $(itemsDiv).each(function () {
+                    id = id + 1;
+                    var itemNumbers = $(this).find(itemClass).length;
+                    btnParentSb = $(this).parent().attr(dataItems);
+                    itemsSplit = btnParentSb.split(',');
+                    $(this).parent().attr("id", "MultiCarousel" + id);
+
+
+                    if (bodyWidth >= 1200) {
+                        incno = itemsSplit[3];
+                        itemWidth = sampwidth / incno;
+                    }
+                    else if (bodyWidth >= 992) {
+                        incno = itemsSplit[2];
+                        itemWidth = sampwidth / incno;
+                    }
+                    else if (bodyWidth >= 768) {
+                        incno = itemsSplit[1];
+                        itemWidth = sampwidth / incno;
+                    }
+                    else {
+                        incno = itemsSplit[0];
+                        itemWidth = sampwidth / incno;
+                    }
+                    $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
+                    $(this).find(itemClass).each(function () {
+                        $(this).outerWidth(itemWidth);
+                    });
+
+                    $(".leftLst").addClass("over");
+                    $(".rightLst").removeClass("over");
+
+                });
+            }
+
+
+            //this function used to move the items
+            function ResCarousel(e, el, s) {
+                var leftBtn = ('.leftLst');
+                var rightBtn = ('.rightLst');
+                var translateXval = '';
+                var divStyle = $(el + ' ' + itemsDiv).css('transform');
+                var values = divStyle.match(/-?[\d\.]+/g);
+                var xds = Math.abs(values[4]);
+                if (e == 0) {
+                    translateXval = parseInt(xds) - parseInt(itemWidth * s);
+                    $(el + ' ' + rightBtn).removeClass("over");
+
+                    if (translateXval <= itemWidth / 2) {
+                        translateXval = 0;
+                        $(el + ' ' + leftBtn).addClass("over");
+                    }
+                }
+                else if (e == 1) {
+                    var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+                    translateXval = parseInt(xds) + parseInt(itemWidth * s);
+                    $(el + ' ' + leftBtn).removeClass("over");
+
+                    if (translateXval >= itemsCondition - itemWidth / 2) {
+                        translateXval = itemsCondition;
+                        $(el + ' ' + rightBtn).addClass("over");
+                    }
+                }
+                $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
+            }
+
+            //It is used to get some elements from btn
+            function click(ell, ee) {
+                var Parent = "#" + $(ee).parent().attr("id");
+                var slide = $(Parent).attr("data-slide");
+                ResCarousel(ell, Parent, slide);
+            }
+
+        });
+    </script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
